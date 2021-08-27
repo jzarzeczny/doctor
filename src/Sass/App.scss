@@ -1,0 +1,17 @@
+@import "base/resets";
+@import "layout/header";
+@import "layout/intro";
+
+@import "components/button";
+@import "components/services";
+@import "components/card";
+
+@import "base/typography"; // Variables
+$fw-light: 300;
+$fw-regular: 400;
+$fw-bold: 700;
+
+body {
+  font-family: "Mulish", sans-serif;
+  font-size: 1.125rem;
+}

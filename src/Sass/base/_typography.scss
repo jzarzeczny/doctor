@@ -1,0 +1,26 @@
+@import "./colors";
+$fw-light: 300;
+$fw-regular: 400;
+$fw-bold: 700;
+
+@mixin reset {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1em;
+}
+
+h1,
+h2,
+h3 {
+  @include reset;
+
+  font-weight: $fw-bold;
+  color: $clr-dark;
+}
+p {
+  @include reset;
+
+  font-weight: $fw-light;
+  color: $clr-gray-300;
+  line-height: 1.6;
+}
