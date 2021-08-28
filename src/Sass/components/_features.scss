@@ -1,0 +1,23 @@
+@import "../base/colors";
+
+.features {
+  margin-top: 2rem;
+}
+
+.feature__container {
+  display: flex;
+  flex-direction: column-reverse;
+  &:last-child {
+    margin-top: 1rem;
+  }
+}
+
+.feature__text {
+  button {
+    width: 100%;
+  }
+}
+
+.feature__header {
+  text-align: center;
+}

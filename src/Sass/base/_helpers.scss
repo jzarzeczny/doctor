@@ -1,0 +1,12 @@
+@import "colors";
+
+.line {
+  &::after {
+    display: block;
+    margin: 0.5em auto 0;
+    content: "";
+    height: 2px;
+    width: 20%;
+    background-color: $clr-dark;
+  }
+}

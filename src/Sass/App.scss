@@ -1,12 +1,16 @@
 @import "base/resets";
+@import "base/helpers";
+
 @import "layout/header";
 @import "layout/intro";
 
 @import "components/button";
 @import "components/services";
 @import "components/card";
+@import "components/features";
+@import "base/typography";
 
-@import "base/typography"; // Variables
+// Variables
 $fw-light: 300;
 $fw-regular: 400;
 $fw-bold: 700;
@@ -14,4 +18,12 @@ $fw-bold: 700;
 body {
   font-family: "Mulish", sans-serif;
   font-size: 1.125rem;
+}
+
+section {
+  padding: 1em;
+}
+
+img {
+  margin: 1rem 0;
 }
