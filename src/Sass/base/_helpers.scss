@@ -10,3 +10,8 @@
     background-color: $clr-dark;
   }
 }
+.line--white {
+  &::after {
+    background-color: $clr-light;
+  }
+}

@@ -1,0 +1,74 @@
+@import "../base/colors";
+
+@mixin arrow {
+  position: relative;
+  width: 28px;
+  height: 4px;
+  opacity: 0.5;
+
+  background-color: $clr-primary;
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 4px;
+    background-color: $clr-primary;
+    right: -1px;
+  }
+  &::before {
+    top: 4px;
+    transform: rotate(-45deg);
+  }
+  &::after {
+    top: -4px;
+    transform: rotate(45deg);
+  }
+}
+
+.arrowNav {
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+.leftArrow {
+  @include arrow;
+  transform: rotate(180deg);
+}
+.rightArrow {
+  @include arrow;
+  &::before,
+  &::after {
+    right: -1px;
+  }
+  &::before {
+    top: 4px;
+    transform: rotate(-45deg);
+  }
+  &::after {
+    top: -4px;
+    transform: rotate(45deg);
+  }
+}
+.arrow--active {
+  opacity: 1;
+}
+
+.dots {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: $clr-primary;
+  opacity: 0.5;
+}
+.dot--active {
+  opacity: 1;
+}

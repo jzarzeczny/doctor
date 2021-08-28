@@ -1,5 +1,6 @@
 @import "base/resets";
 @import "base/helpers";
+@import "base/typography";
 
 @import "layout/header";
 @import "layout/intro";
@@ -8,7 +9,9 @@
 @import "components/services";
 @import "components/card";
 @import "components/features";
-@import "base/typography";
+@import "components/opinions";
+@import "components/arrow";
+@import "components/articles";
 
 // Variables
 $fw-light: 300;

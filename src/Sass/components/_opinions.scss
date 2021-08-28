@@ -1,0 +1,44 @@
+@import "../base/colors";
+
+.opinions {
+  padding: 2em;
+  background: linear-gradient(0.25turn, #67c3f3, #5a98f2);
+  color: $clr-light;
+}
+.opinions__header {
+  color: $clr-light;
+  text-align: center;
+  .line {
+    background-color: $clr-light;
+  }
+}
+
+.opinion__author {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+}
+.author__avatar {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  border-radius: 50%;
+  border: 3px solid $clr-light;
+}
+.author__name,
+.author__role {
+  grid-column: 2/3;
+  grid-row: 1;
+}
+.author__name {
+  align-self: end;
+}
+.author__role {
+  grid-row: 2/3;
+  color: $clr-light;
+  align-self: start;
+}
+
+.opinion__para {
+  color: $clr-light;
+}
