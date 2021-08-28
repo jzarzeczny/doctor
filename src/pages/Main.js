@@ -5,6 +5,7 @@ import Intro from "../components/Intro";
 import Services from "../components/Services";
 import Options from "../components/Opinions";
 import ArrowNav from "../components/ArrowNav";
+import Articles from "../components/Articles";
 
 export default function Main() {
   return (
@@ -15,6 +16,7 @@ export default function Main() {
       <Features />
       <Options />
       <ArrowNav />
+      <Articles />
     </>
   );
 }

@@ -1,0 +1,22 @@
+@import "../base/colors";
+
+.articles {
+  button {
+    margin-top: 2em;
+    width: 100%;
+  }
+}
+
+.article__image {
+  border-radius: 1rem 1rem 0 0;
+}
+.article__text {
+  padding: 0 1em;
+}
+
+.article__link {
+  display: block;
+  color: $clr-primary;
+  text-decoration: none;
+  margin-bottom: 1em;
+}

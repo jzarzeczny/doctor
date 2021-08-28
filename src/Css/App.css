@@ -278,7 +278,7 @@ p {
 }
 
 .arrowNav {
-  margin-top: 1em;
+  margin: 1em 0 2em;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -366,6 +366,26 @@ p {
 
 .dot--active {
   opacity: 1;
+}
+
+.articles button {
+  margin-top: 2em;
+  width: 100%;
+}
+
+.article__image {
+  border-radius: 1rem 1rem 0 0;
+}
+
+.article__text {
+  padding: 0 1em;
+}
+
+.article__link {
+  display: block;
+  color: #458ff6;
+  text-decoration: none;
+  margin-bottom: 1em;
 }
 
 body {
