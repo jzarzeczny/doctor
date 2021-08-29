@@ -18,5 +18,12 @@
   display: block;
   color: $clr-primary;
   text-decoration: none;
-  margin-bottom: 1em;
+}
+.link__container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  .rightArrow {
+    transform: scale(0.6) translateY(3px);
+  }
 }

@@ -1,0 +1,31 @@
+@import "../base/colors";
+@import "../base/typography";
+.footer {
+  background: linear-gradient(0.5turn, #67c3f3, #5a98f2);
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+}
+.footer__logo {
+  width: 50%;
+}
+.footer__information {
+  order: 4;
+  p {
+    color: $clr-light;
+  }
+}
+.footer__list {
+  color: $clr-light;
+  ul {
+    list-style: none;
+    margin-bottom: 1.5em;
+  }
+}
+.list__header {
+  margin-bottom: 1em;
+  font-weight: $fw-bold;
+}
+.list__element {
+  font-weight: $fw-light;
+}
