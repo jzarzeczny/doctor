@@ -3,8 +3,15 @@
 .intro__image {
   max-width: 100%;
 }
-.information {
-  button {
-    width: 100%;
+@media (min-width: 1000px) {
+  .intro {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+  }
+  .intro__image {
+    flex: 1 1 50%;
+  }
+  .information {
+    flex: 1 1 50%;
   }
 }
