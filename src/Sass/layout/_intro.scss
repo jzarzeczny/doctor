@@ -7,11 +7,22 @@
   .intro {
     display: flex;
     flex-flow: row-reverse nowrap;
+    gap: 3rem;
   }
   .intro__image {
-    flex: 1 1 50%;
+    flex: 1 1 auto;
   }
   .information {
     flex: 1 1 50%;
+    align-self: center;
+    button {
+      margin: 0;
+    }
+  }
+  .information__header {
+    font-size: 3rem;
+  }
+  .informtion__para {
+    font-size: 1.3125rem;
   }
 }

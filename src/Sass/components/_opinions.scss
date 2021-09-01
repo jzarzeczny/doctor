@@ -41,4 +41,30 @@
 
 .opinion__para {
   color: $clr-light;
+  &::before {
+    content: open-quote;
+  }
+  &::after {
+    content: close-quote;
+  }
+}
+
+@media (min-width: 1000px) {
+  .opinions {
+    padding: 3em 5em;
+    margin: 0 5em;
+    border-radius: 2em;
+  }
+  .opinion__container {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+  }
+  .opinion__author {
+    flex: 1 1 40%;
+  }
+  .opinion__para {
+    flex: 1 1 55%;
+    align-self: center;
+  }
 }

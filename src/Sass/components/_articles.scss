@@ -5,7 +5,8 @@
     margin-top: 2em;
   }
 }
-.article__header {
+.article__header,
+.articles__header {
   text-align: center;
 }
 .article__image {
@@ -29,5 +30,30 @@
   align-items: center;
   .rightArrow {
     transform: scale(0.6) translateY(3px);
+  }
+}
+
+@media (min-width: 1000px) {
+  .articles__container {
+    display: flex;
+    flex-direction: row;
+    & > & {
+      flex: 1 1 30%;
+      height: 100%;
+    }
+  }
+  .article__image {
+    max-width: 100%;
+  }
+  .article__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 2rem;
+  }
+  .article__header {
+    font-size: 1.3125rem;
+    text-align: start;
   }
 }

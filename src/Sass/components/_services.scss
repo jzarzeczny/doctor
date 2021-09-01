@@ -22,10 +22,17 @@
   align-items: center;
 }
 @media (min-width: 500px) {
+  .services {
+    margin: 0 3rem;
+  }
   .servrices__container {
     flex-flow: row wrap;
   }
   .servrices__container > * {
-    flex: 1 1 50%;
+    flex: 1 1 33%;
+  }
+  .services__para {
+    margin: 3em;
+    text-align: center;
   }
 }

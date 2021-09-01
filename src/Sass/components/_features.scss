@@ -15,3 +15,18 @@
 .feature__header {
   text-align: center;
 }
+@media (min-width: 1000px) {
+  .feature__container {
+    flex-flow: row nowrap;
+    gap: 8rem;
+    &:first-of-type {
+      margin-bottom: 5rem;
+    }
+    &:last-of-type {
+      flex-flow: row-reverse nowrap;
+    }
+  }
+  .feature__text {
+    margin-top: 5em;
+  }
+}

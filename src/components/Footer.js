@@ -16,23 +16,25 @@ export default function Footer() {
           ©Trafalgar PTY LTD 2020. All rights reserved
         </p>
       </div>
-      <FooterList
-        header="Company"
-        elements={["About", "Testimonials", "Find a doctor", "Apps"]}
-      />
-      <FooterList
-        header="Region"
-        elements={["Indonesia", "Singapore", "Hongkong", "Canada"]}
-      />
-      <FooterList
-        header="Help"
-        elements={[
-          "Help center",
-          "Contact support",
-          "Instructions",
-          "How it works",
-        ]}
-      />
+      <div className="list__container">
+        <FooterList
+          header="Company"
+          elements={["About", "Testimonials", "Find a doctor", "Apps"]}
+        />
+        <FooterList
+          header="Region"
+          elements={["Indonesia", "Singapore", "Hongkong", "Canada"]}
+        />
+        <FooterList
+          header="Help"
+          elements={[
+            "Help center",
+            "Contact support",
+            "Instructions",
+            "How it works",
+          ]}
+        />
+      </div>
     </footer>
   );
 }

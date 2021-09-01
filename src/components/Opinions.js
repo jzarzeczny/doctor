@@ -12,7 +12,7 @@ export default function Opinions() {
         avatar={Avatar}
         name="Edward Newgate"
         role="Founder Circle"
-        para="“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”"
+        para="Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely"
       />
     </section>
   );

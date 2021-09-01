@@ -72,3 +72,11 @@
 .dot--active {
   opacity: 1;
 }
+
+@media (min-width: 1000px) {
+  .arrowNav {
+    margin: 3rem auto;
+    width: 40%;
+    margin-bottom: 8rem;
+  }
+}
